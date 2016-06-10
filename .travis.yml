@@ -16,7 +16,7 @@ script:
 
 deploy:
   on:
-    repo: squix78/esp8266-ci-ota
+    repo: kledac/esp8266-OTA
     all_branches: true
     condition: $TRAVIS_TAG =~ ^[0-9]+\.[0-9]+\.[0-9]+$
   skip_cleanup: true
