@@ -12,7 +12,7 @@ install:
 - pip install -U platformio
 - platformio lib install 567 562
 script:
-- platformio run -e nodemcuv2_deploy
+- platformio run -e nodemcu_deploy
 
 deploy:
   on:
